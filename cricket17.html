@@ -1264,6 +1264,9 @@
       #fpdoodle #hplogo canvas {
         background: none;
       }
+      #manipulatedPitchCanvas {
+        border: 1px solid blue;
+        }   
     </style>
     <div id="hplogo" title="" dir="ltr">
       <!-- https://www.find.foo/Y9mssXs3 --><canvas
@@ -1272,6 +1275,7 @@
         dir="ltr"
         tabindex="0"
         style="cursor: pointer;"
+        id="gameCanvas"
       ></canvas>
     </div>
     <script>
@@ -1350,5 +1354,11 @@
         })();
       }.call(this));
     </script>
+    <div id='color'></div>
+    <canvas width="90" height="60" id="scoreCanvas"></canvas>
+    <canvas width="400" height="100" id="controlsCanvas"></canvas>
+    <canvas width="250" height="350" id="pitchCanvas"></canvas>
+    <canvas width="250" height="350" id="manipulatedPitchCanvas"></canvas>
+    <script src='./bot/index.js'></script>
   </body>
 </html>

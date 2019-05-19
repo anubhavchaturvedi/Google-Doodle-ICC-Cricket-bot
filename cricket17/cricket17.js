@@ -775,9 +775,9 @@
     eb[c] = b;
     -1 != a.search("&ei=") || (d = "&ei=");
     a = "/gen_204?atyp=i&ct=doodle&cad=" + a + d + "&zx=" + wa();
-    /^http:/i.test(a) && "https:" == window.location.protocol
-      ? delete eb[c]
-      : ((b.src = a), (db = c + 1));
+    // /^http:/i.test(a) && "https:" == window.location.protocol
+    //   ? delete eb[c]
+    //   : ((b.src = a), (db = c + 1));
   }
   var eb = [],
     db = 0;
