@@ -2,7 +2,9 @@
 
 Play for yourself : https://www.google.com/logos/2017/cricket17/cricket17.html?hl=en
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-qLQKG-i6n8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=-qLQKG-i6n8
+[![Click here to watch on YouTube](http://i.imgur.com/28h47zkr.png)](https://www.youtube.com/watch?v=-qLQKG-i6n8)
+
 
 ## How to run the script: 
 1. Start a basic http server in the root directory `python -m SimpleHTTPServer`
